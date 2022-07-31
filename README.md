@@ -2,21 +2,21 @@
 Final Project for University of California - Berkeley's 2022 Summer Sessions Astronomy 9 Class - Group 5
 
 
-**Group Members:
+**Group Members:**
 
-**Ma, Yichen
+**Ma, Yichen**
 
-**Shah, Manthan
+**Shah, Manthan**
 
-**Su, Aaron
+**Su, Aaron**
 
-**Sun, Chengze
+**Sun, Chengze**
 
-**Wang, Xinyao
+**Wang, Xinyao**
 
-**Yang, Emily
+**Yang, Emily**
 
-**Ye, Jeremy
+**Ye, Jeremy**
 
 
 **1 Abstract**
