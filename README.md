@@ -13,7 +13,7 @@ Ye, Jeremy
 
 
 **1 Abstract**
-Abstract: Luminosity curves are used to show how the brightness of
+Luminosity curves are used to show how the brightness of
 different stellar objects, especially stars, changes over time. They offer information about
 any astronomical processes happening, especially if they cause a sudden change in an object’s
 brightness (for example, a supernova causes a sudden increase in brightness). [Research
@@ -23,8 +23,10 @@ are they?  For this study, we will analyze and compare luminosity
 curve data from different types of stars to understand what affects a star’s brightness and
 luminosity. Overall, the data findings should support the idea that a star’s
 luminosity curve can be influenced by different stellar properties.
+
+
 **2 Background**
-Background: Luminosity Scales are one of the foundations of modern day Astronomy.
+Luminosity Scales are one of the foundations of modern day Astronomy.
 Research on luminosity has been conducted as far back as the 1930s. Fortunately, we made
 massive improvements to our technology over the last 100 years, which means that we have
 tools such as computers and Python to have a better understanding of the relationship of
@@ -32,6 +34,8 @@ how factors eventually impact luminosity scales. More recent articles also have 
 an renewed interest in luminosity scales. One area that our group is significantly interested
 in is determining which variables can affect the luminosity scale of stars observed by humans
 on earth.
+
+
 **3 Research Question**
 Our inspiration for this project originates from several papers studying how luminosity curves
 are calculated, as well as the launch of the James Webb Telescope. Through papers such
@@ -44,6 +48,8 @@ its physical features, and if so, which factors most strongly determine its brig
 luminosity. We anticipate our data analysis will be able to group stars with similar lumi-
 nosities and compare within-group and between-group data to determine the factors which
 most strongly correspond with stellar luminosity.
+
+
 **4 Methods**
 Methods: To determine the correlation between luminosity and other factors (time, mass,
 radius, and stage of life, among others), we will first collect the data of stars from public,
@@ -56,6 +62,8 @@ luminosity of different stellar objects and construct their luminosity curves, t
 stellar objects by their luminosities. We will then study these groups using statistical analysis
 to determine within-group as well as between-group similarities and differences to determine
 the factors that are most likely to be involved in determining a star’s luminosity.
+
+
 **References**
 Balona, L.A., Shobbrook, R.R. A re-calibration of the luminosities of early-type stars: its
 effect on the Cepheid luminosity scale. Monthly Notices of the Royal Astronomical Society
