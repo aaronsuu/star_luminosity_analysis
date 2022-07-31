@@ -51,7 +51,7 @@ most strongly correspond with stellar luminosity.
 
 
 **4 Methods**
-Methods: To determine the correlation between luminosity and other factors (time, mass,
+To determine the correlation between luminosity and other factors (time, mass,
 radius, and stage of life, among others), we will first collect the data of stars from public,
 usable sources, including the NASA (National Aeronautics and Space Administration) web-
 2
