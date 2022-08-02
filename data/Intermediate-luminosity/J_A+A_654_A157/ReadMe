@@ -1,0 +1,392 @@
+J/A+A/654/A157      5 ILRTs light curves and spectra                (Cai+, 2021)
+================================================================================
+Intermediate-Luminosity Red Transients: Spectro-photometric properties and
+connection to electron-capture supernova explosions.
+    Cai Y-Z., Pastorello A., Fraser M., Botticella M.T., Elias-Rosa N.,
+    Wang L.-Z., Kotak R., Benetti S., Cappellaro E., Turatto M., Reguitti A.,
+    Mattila S., Smartt S.J., Ashall C., Benitez S., Chen T.-W., Harutyunyan A.,
+    Kankare E., Lundqvist P., Mazzali P.A., Morales-Garoolo A., Ochner P.,
+    Pignata G., Prentice S.J., Reynolds T.M., Shu X.-W., Stritzinger M.D.,
+    Tartaglia L., Terreran G., Tomasella L., Valenti S., Valerin G., Wang G.-J.,
+    Wang X.-F., Borsato L., Callis E., Cannizzaro G., Chen S., Congiu E.,
+    Ergon M., Galbany L., Gal-Yam A., Gao X., Gromadzki M., Holmbo S., Huang F.,
+    Inserra C., Itagaki K., Kostrzewa-Rutkowska Z., Maguire K., Margheim S.,
+    Moran S., Onori F., Sagues Carracedo A., Smith K.W., Sollerman J.,
+    Somero A., Wang B., Young D.R.
+    <Astron. Astrophys. 654, A157 (2021)>
+    =2021A&A...654A.157C        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, variable ; Photometry, UBVRI ; Photometry, SDSS ;
+              Photometry, infrared ; Spectroscopy
+Keywords: supernovae: general - stars: AGB and post-AGB - stars: mass-loss
+
+Abstract:
+    We present the spectroscopic and photometric study of five
+    intermediate-luminosity red transients (ILRTs), namely AT 2010dn, AT
+    2012jc, AT 2013la, AT 2013lb, and AT 2018aes. They share common
+    observational properties and belong to a family of objects similar to
+    the prototypical ILRT SN 2008S. These events have a rise time that is
+    less than 15 days and absolute peak magnitudes of between -11:5 and
+    -14:5mag. Their pseudo-bolometric light curves peak in the range
+    0.5-9.0*10^40^erg/s and their total radiated energies are on the
+    order of (0.3-3)*10^47^erg. After maximum brightness, the light
+    curves show a monotonic decline or a plateau, resembling those of
+    faint supernovae IIL or IIP, respectively. At late phases, the light
+    curves flatten, roughly following the slope of the ^56^Co decay. If
+    the late-time power source is indeed radioactive decay, these
+    transients produce ^56^Ni masses on the order of 10^-4^ to
+    10^-3^M_{sun}_. The spectral energy distribution of our ILRT sample,
+    extending from the optical to the mid-infrared (MIR) domain, reveals a
+    clear IR excess soon after explosion and non-negligible MIR emission
+    at very late phases. The spectra show prominent H lines in emission
+    with a typical velocity of a few hundred km/s, along with CaII
+    features. In particular, the [CaII]7291,7324 doublet is visible at all
+    times, which is a characteristic feature for this family of
+    transients. The identified progenitor of SN 2008S, which is luminous
+    in archival Spitzer MIR images, suggests an intermediate-mass
+    precursor star embedded in a dusty cocoon. We propose the explosion of
+    a super-asymptotic giant branch star forming an electron-capture
+    supernova as a plausible explanation for these events.
+
+Description:
+    Photometry tables and fits spectra for five Intermediate-Luminosity
+    Red Transients (AT 2010dn, AT 2012jc, AT 2013la, AT 2013lb, and AT
+    2018aes).
+
+Objects:
+    ------------------------------------------------------------
+       RA   (2000)   DE        Designation(s)
+    ------------------------------------------------------------
+    10 18 19.89  +41 26 28.80  AT 2010dn = SN 2010dn
+    14 53 53.95  +03 34 04.90  AT 2012jc = PSN J14535395+0334049
+    13 10 07.34  +34 10 51.4   AT 2013la = PSN J13100734+3410514
+    15 21 34.75  -07 22 18.30  AT 2013lb = PSN J15213475-0722183
+    13 38 17.76  +03 56 44.20  AT 2018aes
+    ------------------------------------------------------------
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName     Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe           80        .   This file
+tablea1.dat     104       36   AT 2010dn optical (BVuriz) light curves
+tablea2.dat      60        9   AT 2010dn near-infrared (NIR) JHK light curves
+tablea3.dat      42       10   AT 2010dn mid-infrared (MIR) CH1/CH2 light curves
+tablea4.dat      91       31   AT 2012jc optical (UBVRI) light curves
+tablea5.dat      92       35   AT 2013lb optical (UBVRI) light curves
+tablea6.dat      60       14   AT 2013lb near-infrared (NIR) JHK light curves
+tablea7.dat      98       45   AT 2013la optical (BVugri) light curves
+tablea8.dat     106       41   AT 2018aes optical (BVgriz) light curves
+tablea9.dat      62        5   AT 2018aes near-infrared (NIR) JHK light curves
+sp/*              .       23   Individual ascii spectra (not for AT2010dn)
+list.dat        158       33   List of fits spectra (for all sources)
+fits/*            .       33   Individual fits spectra
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10  "date"   Date      Date of observation (yyyy/mm/dd)
+  12- 19  F8.2  d       MJD       Modified Julian Date
+      21  A1    ---   l_Bmag      Limit flag on Bmag
+  22- 27  F6.3  mag     Bmag      ?=- Johnson-Cousins B  band magnitude
+  29- 33  F5.3  mag   e_Bmag      ? Johnson-Cousins B band magnitude error
+      35  A1    ---   l_Vmag      Limit flag on Vmag
+  36- 41  F6.3  mag     Vmag      ?=- Johnson-Cousins V band magnitude
+  43- 47  F5.3  mag   e_Vmag      ? Johnson-Cousins V band magnitude error
+  49- 54  F6.3  mag     umag      ?=- Sloan u band magnitude
+  56- 60  F5.3  mag   e_umag      ? Sloan u band magnitude error
+      62  A1    ---   l_rmag      Limit flag on rmag
+  63- 68  F6.3  mag     rmag      ?=- Sloan r band magnitude
+  70- 74  F5.3  mag   e_rmag      ? Sloan r band magnitude error
+  76- 81  F6.3  mag     imag      ?=- Sloan i band magnitude
+  83- 87  F5.3  mag   e_imag      ? Sloan i band magnitude error
+  89- 94  F6.3  mag     zmag      ?=- Sloan z band magnitude
+  96-100  F5.3  mag   e_zmag      ? Sloan z band magnitude error
+     102  I1    ---     Tel       [1/5]?=- Telescope numerical code (1)
+     104  A1    ---     Note      [a-d] Notes to the table (2)
+--------------------------------------------------------------------------------
+Note (1): Telescope numerical code as follows:
+ 1 = Nordic Optical Telescope (NOT) + ALFOSC
+ 2 = Telescopio Nazionale Galileo (TNG) + LRS
+ 3 = LCO (FTN site) + EM01
+ 4 = Liverpool Telescope (LT) + RATCam
+ 5 = Copernico Telescope + AFOSC
+Note (2): Additional notes:
+ a = This approximation is based on the similar through puts between wide
+      filters F555W/F814W and V/I . Original data published by
+      Berger (2010ATel.2655....1B), and reported to Johnson-Cousins V and I
+      (I>24.9mag) magnitudes
+ b = Amateur data (K. Itagaki) scaled to r band
+ c = Bright Supernova website
+      (http://www.rochesterastronomy.org/sn2010/index.html#2010dn;
+      Observation: J. Nicolas)
+ d = Bright Supernova website
+      (http://www.rochesterastronomy.org/sn2010/index.html#2010dn;
+      Observation: J. Brimacombe)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10  "date"   Date      Date of observation (yyyy/mm/dd)
+  12- 19  F8.2  d       MJD       Modified Julian Date
+  21- 26  F6.3  mag     Jmag      NIR J band magnitude
+  28- 32  F5.3  mag   e_Jmag      NIR J band magnitude error
+  34- 39  F6.3  mag     Hmag      NIR H band magnitude
+  41- 45  F5.3  mag   e_Hmag      NIR H band magnitude error
+  47- 52  F6.3  mag     Kmag      ?=- NIR K band magnitude
+  54- 58  F5.3  mag   e_Kmag      ? NIR K band magnitude error
+      60  I1    ---     Tel       [1/2] Telescope numerical code (1)
+--------------------------------------------------------------------------------
+Note (1): Telescope numerical code as follows:
+   1 = Liverpool Telescope (LT) + SupIRCam
+   2 = Telescopio Nazionale Galileo (TNG) + NICS
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10  "date"   Date      Date of observation (yyyy/mm/dd)
+  12- 18  F7.1  d       MJD       Modified Julian Date
+  20- 24  F5.2  mag     CH1mag    MIR CH1 (3.6um) band magnitude
+  26- 29  F4.2  mag   e_CH1mag    MIR CH1 (3.6um) band magnitude error
+  31- 35  F5.2  mag     CH2mag    MIR CH2 (4.5um) band magnitude
+  37- 40  F4.2  mag   e_CH2mag    MIR CH2 (4.5um) band magnitude error
+      42  I1    ---     Tel       [1] Telescope numerical code (1)
+--------------------------------------------------------------------------------
+Note (1): Telescope numerical code as follows:
+  1 = The Spitzer Space Telescope + InfraRed Array Camera
+       (IRAC; two channels: CH1=3.6um and CH2=4.5um)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea4.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10  "date"   Date      Date of observation (yyyy/mm/dd)
+  12- 19  F8.2  d       MJD       Modified Julian Date
+      21  A1    ---   l_Umag      Limit flag on Umag
+  22- 27  F6.3  mag     Umag      ?=- Johnson-Cousins U band magnitude
+  29- 33  F5.3  mag   e_Umag      ? Johnson-Cousins U band magnitude error
+  35- 40  F6.3  mag     Bmag      ?=- Johnson-Cousins B band magnitude
+  42- 46  F5.3  mag   e_Bmag      ? Johnson-Cousins B band magnitude error
+      48  A1    ---   l_Vmag      Limit flag on Vmag
+  49- 54  F6.3  mag     Vmag      ?=- Johnson-Cousins V band magnitude
+  56- 60  F5.3  mag   e_Vmag      ? Johnson-Cousins V band magnitude error
+      62  A1    ---   l_Rmag      Limit flag on Rmag
+  63- 68  F6.3  mag     Rmag      ?=- Johnson-Cousins R band magnitude
+  70- 74  F5.3  mag   e_Rmag      ? Johnson-Cousins R band magnitude error
+  76- 81  F6.3  mag     Imag      ?=- Johnson-Cousins I band magnitude
+  83- 87  F5.3  mag   e_Imag      ? Johnson-Cousins I band magnitude error
+      89  I1    ---     Tel       [1/8]?=-  Telescope numerical code (1)
+      91  A1    ---     Note      [ab] Notes to the table (2)
+--------------------------------------------------------------------------------
+Note (1): Telescope numerical code as follows:
+ 1 = PROMPT Telescope + PROMPT3/5
+ 2 = Liverpool Telescope (LT) + RATCam
+ 3 = Copernico Telescope + AFOSC
+ 4 = New Technology Telescope (NTT) + EFOSC2
+ 5 = Schmidt Telescope + SBIG
+ 6 = Nordic Optical Telescope (NOT) + ALFOSC
+ 7 = Telescopio Nazionale Galileo (TNG) + LRS
+ 8 = TRAPPIST-S Telescope + TRAPPIST
+Note (2): Additional notes:
+ a = Observations from The Astronomer's Telegram (ATel, No. 4004;
+      see Howerton et al. 2012ATel.4004....1H).
+ b = Bright Supernova website
+      (http://www.rochesterastronomy.org/sn2012/index.html#PSNJ14535395+0334049;
+      Observation: J. Brimacombe)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea5.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10  "date"   Date      Date of observation (yyyy/mm/dd)
+  12- 19  F8.2  d       MJD       Modified Julian Date
+      21  A1    ---   l_Umag      Limit flag on Umag
+  22- 27  F6.3  mag     Umag      ?=- Johnson-Cousins U band magnitude
+  29- 33  F5.3  mag   e_Umag      ? Johnson-Cousins U band magnitude error
+      35  A1    ---   l_Bmag      Limit flag on Bmag
+  36- 41  F6.3  mag     Bmag      ?=- Johnson-Cousins B band magnitude
+  43- 47  F5.3  mag   e_Bmag      ? Johnson-Cousins B band magnitude error
+      49  A1    ---   l_Vmag      Limit flag on Vmag
+  50- 55  F6.3  mag     Vmag      ?=- Johnson-Cousins V band magnitude
+  57- 61  F5.3  mag   e_Vmag      ? Johnson-Cousins V band magnitude error
+      63  A1    ---   l_Rmag      Limit flag on Rmag
+  64- 69  F6.3  mag     Rmag      ?=- Johnson-Cousins R band magnitude
+  71- 75  F5.3  mag   e_Rmag      ? Johnson-Cousins R band magnitude error
+  77- 82  F6.3  mag     Imag      ?=- Johnson-Cousins I band magnitude
+  84- 88  F5.3  mag   e_Imag      ? Johnson-Cousins I band magnitude error
+      90  I1    ---     Tel       [1/5]?=- Telescope numerical code (1)
+      92  A1    ---     Note      [a] Notes to the table (2)
+--------------------------------------------------------------------------------
+Note (1): Telescope numerical code as follows:
+ 1 = PROMPT Telescope + PROMPT3/5
+ 2 = Copernico Telescope + AFOSC
+ 3 = New Technology Telescope (NTT) + EFOSC2
+ 4 = Liverpool Telescope (LT) + RATCam
+ 5 = SMARTS Telescope + ANDICAM-CCD
+Note (2): Additional notes:
+ a = This limit was obtained by L. Elenin (Lyubertsy, Russia) and
+      I. Molotov (Moscow, Russia) through a 0.45-m f/2.8 telescope plus
+      KAF09000 CCD, which is also reported in the Central Bureau for
+      Astronomical Telegrams (CBAT, see
+      http://www.cbat.eps.harvard.edu/unconf/followups/J15213475-0722183.html)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea6.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10  "date"   Date      Date of observation (yyyy/mm/dd)
+  12- 19  F8.2  d       MJD       Modified Julian Date (MJD-50000)
+  21- 26  F6.3  mag     Jmag      ?=- NIR J band magnitude
+  28- 32  F5.3  mag   e_Jmag      ? NIR J band magnitude error
+  34- 39  F6.3  mag     Hmag      ?=- NIR H band magnitude
+  41- 45  F5.3  mag   e_Hmag      ? NIR H band magnitude error
+  47- 52  F6.3  mag     Kmag      ?=- NIR K band magnitude
+  54- 58  F5.3  mag   e_Kmag      ? NIR K band magnitude error
+      60  I1    ---     Tel       [1/2] Telescope numerical code (1)
+--------------------------------------------------------------------------------
+Note (1): Telescope numerical code as follows:
+   1 = New Technology Telescope (NTT) + SOFI
+   2 = SMARTS Telescope + ANDICAM-IR
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea7.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10  "date"   Date      Date of observation (yyyy/mm/dd)
+  12- 19  F8.2  d       MJD       Modified Julian Date
+  21- 26  F6.3  mag     Bmag      ?=- Johnson-Cousins B band magnitude
+  28- 32  F5.3  mag   e_Bmag      ? Johnson-Cousins B band magnitude error
+      34  A1    ---   l_Vmag      Limit flag on Vmag
+  35- 40  F6.3  mag     Vmag      ?=- Johnson-Cousins V band magnitude
+  42- 46  F5.3  mag   e_Vmag      ? Johnson-Cousins V band magnitude error
+      48  A1    ---   l_umag      Limit flag on umag
+  49- 54  F6.3  mag     umag      ?=- Sloan u band magnitude
+  56- 60  F5.3  mag   e_umag      ? Sloan u band magnitude error
+  62- 66  F5.2  mag     gmag      ?=- Sloan g band magnitude
+      68  A1    ---   l_rmag      Limit flag on rmag
+  69- 74  F6.3  mag     rmag      ?=- Sloan r band magnitude
+  76- 80  F5.3  mag   e_rmag      ? Sloan r band magnitude error
+  82- 87  F6.3  mag     imag      ?=- Sloan i band magnitude
+  89- 93  F5.3  mag   e_imag      ? Sloan i band magnitude error
+      96  I1    ---     Tel       [1/7]?=- Telescope numerical code (1)
+      98  A1    ---     Note      [a] Notes to the table (2)
+--------------------------------------------------------------------------------
+Note (1): Telescope numerical code as follows:
+ 1 = Celestron C14 35-cm reflector + QHY9
+ 2 = Liverpool Telescope (LT) + IO:O
+ 3 = Copernico Telescope + AFOSC
+ 4 = Schmidt Telescope + SBIG
+ 5 = Telescopio Nazionale Galileo (TNG) + LRS
+ 6 = Gran Telescopio CANARIAS (GTC) + OSIRIS
+ 7 = Nordic Optical Telescope (NOT) + ALFOSC
+Note (2): Additional notes:
+ a = These data were taken from the Pan-STARRS Survey for Transients (see
+      website:
+      https://star.pst.qub.ac.uk/ps1threepi/psdb/candidate/1131007351341051000/)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea8.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10  "date"   Date      Date of observation (yyyy/mm/dd)
+  12- 19  F8.2  d       MJD       Modified Julian Date
+      21  A1    ---   l_Bmag      Limit flag on Bmag
+  22- 27  F6.3  mag     Bmag      ?=- Johnson-Cousins B  band magnitude
+  29- 33  F5.3  mag   e_Bmag      ? Johnson-Cousins B band magnitude error
+      35  A1    ---   l_Vmag      Limit flag on Vmag
+  36- 41  F6.3  mag     Vmag      ?=- Johnson-Cousins V band magnitude
+  43- 47  F5.3  mag   e_Vmag      ? Johnson-Cousins V band magnitude error
+      49  A1    ---   l_gmag      Limit flag on gmag
+  50- 55  F6.3  mag     gmag      ?=- Sloan g band magnitude
+  57- 61  F5.3  mag   e_gmag      ? Sloan g band magnitude error
+      63  A1    ---   l_rmag      Limit flag on rmag
+  64- 69  F6.3  mag     rmag      ?=- Sloan r band magnitude
+  71- 75  F5.3  mag   e_rmag      ? Sloan r band magnitude error
+      77  A1    ---   l_imag      Limit flag on imag
+  78- 83  F6.3  mag     imag      ?=- Sloan i band magnitude
+  85- 89  F5.3  mag   e_imag      ? Sloan i band magnitude error
+  91- 96  F6.3  mag     zmag      ?=- Sloan z band magnitude
+  98-102  F5.3  mag   e_zmag      ? Sloan z band magnitude error
+     104  I1    ---     Tel       [1/7]?=- Telescope numerical code (1)
+     106  A1    ---     Note      [abc] Notes to the table (2)
+--------------------------------------------------------------------------------
+Note (1): Telescope numerical code as follows:
+ 1 = LCO (COJ site) + fl12
+ 2 = LCO (CPT site) + fl06
+ 3 = Nordic Optical Telescope (NOT) + ALFOSC
+ 4 = LCO (ELP site) + fl05
+ 5 = LCO (LSC site) + fl03
+ 6 = Liverpool Telescope (LT) + IO:O
+ 7 = Schmidt Telescope + Moravian
+Note (2): Additional notes:
+ a = ATLAS (Asteroid Terrestrial-impact Last Alert System;
+      Heinze et al. 2018; Tonry et al. 2018;
+      Smith et al. 2020) observations in cyan- and orange-band magnitudes are
+      reported in the sloan g and r columns respectively
+ b = Unfiltered KAIT data reported to the sloan r magnitudes (AB system). Data
+      from the Transient Name Server
+      (TNS; https://wis-tns.weizmann.ac.il/object/2018aes)
+ c = The i-band magnitude is the weighted mean value obtained from the
+     Pan-STARRS Survey for Transients (see website:
+     https://star.pst.qub.ac.uk/sne/ps13pi/psdb/lightcurve/1134817771035644300/)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea9.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  A10  "date"   Date      Date of observation (yyyy/mm/dd)
+  12- 19  F8.2  d       MJD       Modified Julian Date
+      21  A1    ---   l_Jmag      Limit flag on Jmag
+  22- 27  F6.3  mag     Jmag      ?=- NIR J band magnitude
+  29- 33  F5.3  mag   e_Jmag      ? NIR J band magnitude error
+  35- 40  F6.3  mag     Hmag      ?=- NIR H band magnitude
+  42- 46  F5.3  mag   e_Hmag      ? NIR H band magnitude error
+  49- 54  F6.3  mag     Kmag      ?=- NIR K band magnitude
+  56- 60  F5.3  mag   e_Kmag      ? NIR K band magnitude error
+      62  I1    ---     Tel       [1] Telescope numerical code (1)
+--------------------------------------------------------------------------------
+Note (1): Telescope numerical code as follows:
+  1 = Nordic Optical Telescope (NOT) + NOTCam.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: sp/*
+--------------------------------------------------------------------------------
+   Bytes  Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 17  F17.11 0.1nm   lambda    Wavelength
+  20- 32  E13.7  ---     Flux      Normalised flux
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: list.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  9  A9    ---     Name      Intermediate-Luminosity Red Transient name
+  11- 14  I4    ---     Nx        Number of pixels along X-axis
+      16  I1    ---     Ny        ? Number of pixels along Y-axis
+  18- 40  A23  "datime" Obs.date  Observation date
+  42- 48  F7.2  0.1nm   blambda   Lower value of wavelength interval
+  50- 57  F8.2  0.1nm   Blambda   Upper value of wavelength interval
+  59- 66  F8.6  0.1nm   dlambda   Wavelength resolution
+  68- 69  I2    Kibyte  size      Size of FITS file
+  71-110  A40   ---     FileName  Name of FITS file, in subdirectory fits
+ 112-158  A47   ---     Title     Title of the FITS file
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Yongzhi Cai, yzcai(at)mail.tsinghua.edu.cn
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  11-Oct-2021
