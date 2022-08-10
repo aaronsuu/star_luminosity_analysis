@@ -1,6 +1,8 @@
 # Star Luminosity Analysis
 Final Project for University of California - Berkeley's 2022 Summer Sessions Astronomy 9 Class - Group 5
 
+Data Used: https://www.astro.keele.ac.uk/jkt/debcat/
+
 
 **Group Members:**
 
