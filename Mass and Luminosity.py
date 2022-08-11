@@ -47,6 +47,23 @@ for i in range(len(sec_lum)):
     sec_massa.append(float(sec_mass[i][0:5]))
     sec_massa_sigma.append(float(mass[i][-4:-1]))
 
+for i in range(len(massa_sigma)):
+    if(massa_sigma[i] >= 10):
+        massa_sigma[i] = massa_sigma[i]/1000
+    elif(massa_sigma[i] >= 1):
+        massa_sigma[i] = massa_sigma[i]/100
+    else:
+        massa_sigma[i] = float(massa_sigma[i]/10)
+        
+for i in range(len(sec_massa_sigma)):
+    if(sec_massa_sigma[i] >= 10):
+        sec_massa_sigma[i] = float(sec_massa_sigma[i]/1000)
+    elif(sec_massa_sigma[i] >= 1):
+        sec_massa_sigma[i] = sec_massa_sigma[i]/100
+    else:
+        sec_massa_sigma[i] = sec_massa_sigma[i]/10
+    
+
 
 # In[14]:
 
