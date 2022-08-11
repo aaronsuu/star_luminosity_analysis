@@ -14,11 +14,8 @@ Data Used: https://www.astro.keele.ac.uk/jkt/debcat/
 
 **Sun, Chengze**
 
-**Wang, Xinyao**
-
 **Yang, Emily**
 
-**Ye, Jeremy**
 
 
 **1 Abstract**
