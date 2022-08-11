@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[2]:
-
+##Research By Chengze Sun
 
 import numpy as np
 import matplotlib.pyplot as plt
